@@ -12,8 +12,8 @@ Using for PEA DEV Pool 2567
 5. เปิดเว็บเบราเซอร์ เข้า http://localhost/ เปิด phpMyAdmin
 6. สร้าง Database ชื่อ "member_crud"
 7. สร้่าง Table ชื่อ "content" มีแอททริบิว ดังต่อไปนี้
-    #	Name	        Type	        Collation	    Attributes	Null	Default	    Extra	
-    1	idcontent       int(10)			                            No	    None		AUTO_INCREMENT	 Primary Key	
+   	Name	        Type	        Collation	    Attributes	Null	Default	    Extra	
+    	1	idcontent       int(10)			                            No	    None		AUTO_INCREMENT	 Primary Key	
 	2	topic	        varchar(255)	utf8_general_ci		        No	    None			
 	3	content	        varchar(255)	utf8_general_ci		        No	    None			
 	4	img	            varchar(255)	utf8_general_ci		        No	    None			
